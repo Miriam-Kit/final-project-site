@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rebrand Identity Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Amarante&family=Mali&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Everything lives inside this box so the page stays centered with space on the sides -->
+  <div class="site">
+
+  <!-- Banner at the top of the page -->
+  <header class="hero">
+    <img class="hero-texture" src="images/rectangle-4.png" alt="">
+    <h1 class="hero-title">Rebrand Identity Project</h1>
+  </header>
+
+  <div class="page">
+
+    <!-- Side navigation: icons show by default, names slide out on hover -->
+    <nav class="nav-drawer">
+      <p class="nav-title">Navigation</p>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <img class="nav-icon" src="images/image-10.png" alt="Home">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="research.html">
+            <img class="nav-icon" src="images/image-11.png" alt="Research">
+            Research
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sketches.html">
+            <img class="nav-icon" src="images/image-12.png" alt="Sketches">
+            Sketches
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="finalfiles.html">
+            <img class="nav-icon" src="images/image-13.png" alt="Final Files and Mockups">
+            Final Files &amp; Mockups
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="citations.html">
+            <img class="nav-icon" src="images/people-icon.png" alt="Citations">
+            Citations
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="page-content">
+
+      <!-- Short intro box -->
+      <article class="intro-box">
+        <p class="body-text intro-text">This site contains the design process of my “Rebranding Identity Project” for my DVC 1 class.</p>
+        <p class="body-text intro-text">The project contents include drafting stages, research, and images of every step it took to get to the final product.</p>
+      </article>
+
+      <!-- About box: left column is text, right column is "About me" and photos -->
+      <article class="about-box">
+
+        <section class="about-left">
+          <h2 class="about-title">About</h2>
+
+          <h3 class="sub-title purpose-title">Project Purpose</h3>
+          <p class="body-text about-text">This project is a rebrand for a selected local Milwaukee business, shifting its current archetype to a more aligned, strategic archetype. Students will develop a fresh visual identity that reflects the new archetype and core values, with a focus on modernizing the brand’s image while remaining true to its mission.</p>
+          <p class="body-text about-text">The business that I was given for this project was Boswell Book Company. Boswell is a bookstore with a wide variety of books, magazines, records and other items. The original archetype of the store was the sage which focuses on education and knowledge. The one I have rebranded it to is the lover which focuses on connection and passion.</p>
+
+          <h3 class="sub-title objectives-title">Objectives</h3>
+          <p class="body-text about-text">Students will select a Milwaukee-based business and assign it a new archetype, creating a comprehensive brand identity kit. Deliverables will include logos, color palette, typography, and applications across different platforms, culminating in a cohesive brand system.</p>
+
+          <button class="expand-button logo-image" popovertarget="logo-big">
+            <img class="expand-thumb" src="images/image-2.jpg" alt="Boswell Book Company logo">
+            <span class="expand-label">Expand</span>
+          </button>
+          <div class="enlarged-box" id="logo-big" popover>
+            <img class="enlarged-image" src="images/image-2.jpg" alt="Boswell Book Company logo, enlarged">
+          </div>
+        </section>
+
+        <section class="about-right">
+          <div class="about-me">
+            <h3 class="sub-title">About me</h3>
+            <p class="about-me-text">I am Miriam Kitzrow and I am a DVC major at UW-Milwaukee</p>
+            <p class="about-me-text">This project is from my DVC 1 class where we had to redesign a brands entire archetype and design.</p>
+            <address class="about-me-text">Email: <a class="email-link" href="mailto:mkitzrow@uwm.edu">mkitzrow@uwm.edu</a></address>
+          </div>
+
+          <button class="expand-button storefront-image" popovertarget="storefront-big">
+            <img class="expand-thumb" src="images/image-1.jpg" alt="Boswell Book Company storefront">
+            <span class="expand-label">Expand</span>
+          </button>
+          <div class="enlarged-box" id="storefront-big" popover>
+            <img class="enlarged-image" src="images/image-1.jpg" alt="Boswell Book Company storefront, enlarged">
+          </div>
+
+          <button class="expand-button sign-image" popovertarget="sign-big">
+            <img class="expand-thumb" src="images/1000002562.jpg" alt="Boswell Book Company wooden sign">
+            <span class="expand-label">Expand</span>
+          </button>
+          <div class="enlarged-box" id="sign-big" popover>
+            <img class="enlarged-image" src="images/1000002562.jpg" alt="Boswell Book Company wooden sign, enlarged">
+          </div>
+        </section>
+
+      </article>
+
+    </main>
+  </div>
+
+  </div>
+
+</body>
+</html>

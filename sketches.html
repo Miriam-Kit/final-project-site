@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sketches</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Amarante&family=Mali&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Everything lives inside this box so the page stays centered with space on the sides -->
+  <div class="site">
+
+  <!-- Banner at the top of the page -->
+  <header class="hero">
+    <img class="hero-texture hero-texture-strong" src="images/sketches-rectangle-4.png" alt="">
+    <h1 class="hero-title">Sketches</h1>
+  </header>
+
+  <div class="page">
+
+    <!-- Side navigation: icons show by default, names slide out on hover -->
+    <nav class="nav-drawer">
+      <p class="nav-title">Navigation</p>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <img class="nav-icon" src="images/image-10.png" alt="Home">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="research.html">
+            <img class="nav-icon" src="images/image-11.png" alt="Research">
+            Research
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sketches.html">
+            <img class="nav-icon" src="images/image-12.png" alt="Sketches">
+            Sketches
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="finalfiles.html">
+            <img class="nav-icon" src="images/image-13.png" alt="Final Files and Mockups">
+            Final Files &amp; Mockups
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="citations.html">
+            <img class="nav-icon" src="images/people-icon.png" alt="Citations">
+            Citations
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="page-content">
+
+      <article class="sketches-box">
+
+        <!-- First sketches: two photos side by side -->
+        <section class="sketch-section">
+          <h2 class="sketch-heading">First sketches of the new brand logo.</h2>
+          <div class="sketch-row">
+            <button class="expand-button sketch-image" popovertarget="first-sketch-1-big">
+              <img class="expand-thumb" src="images/1000002671-1.jpg" alt="First logo sketches, page 1">
+              <span class="expand-label">Expand</span>
+            </button>
+            <div class="enlarged-box" id="first-sketch-1-big" popover>
+              <img class="enlarged-image" src="images/1000002671-1.jpg" alt="First logo sketches, page 1, enlarged">
+            </div>
+
+            <button class="expand-button sketch-image" popovertarget="first-sketch-2-big">
+              <img class="expand-thumb" src="images/1000002672-1.jpg" alt="First logo sketches, page 2">
+              <span class="expand-label">Expand</span>
+            </button>
+            <div class="enlarged-box" id="first-sketch-2-big" popover>
+              <img class="enlarged-image" src="images/1000002672-1.jpg" alt="First logo sketches, page 2, enlarged">
+            </div>
+          </div>
+        </section>
+
+        <!-- Refined sketches: one photo, centered -->
+        <section class="sketch-section">
+          <h2 class="sketch-heading">Refined sketches of brand logo.</h2>
+          <button class="expand-button refined-image" popovertarget="refined-sketch-big">
+            <img class="expand-thumb" src="images/1000002691-1.jpg" alt="Refined logo sketches">
+            <span class="expand-label">Expand</span>
+          </button>
+          <div class="enlarged-box" id="refined-sketch-big" popover>
+            <img class="enlarged-image" src="images/1000002691-1.jpg" alt="Refined logo sketches, enlarged">
+          </div>
+        </section>
+
+      </article>
+
+      <a class="pill-button back-button" href="research.html">&lt; Back</a>
+
+    </main>
+  </div>
+
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Research</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Amarante&family=Mali&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Everything lives inside this box so the page stays centered with space on the sides -->
+  <div class="site">
+
+  <!-- Banner at the top of the page -->
+  <header class="hero">
+    <img class="hero-texture hero-texture-strong" src="images/research-rectangle-4.png" alt="">
+    <h1 class="hero-title">Research</h1>
+  </header>
+
+  <div class="page">
+
+    <!-- Side navigation: icons show by default, names slide out on hover -->
+    <nav class="nav-drawer">
+      <p class="nav-title">Navigation</p>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <img class="nav-icon" src="images/image-10.png" alt="Home">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="research.html">
+            <img class="nav-icon" src="images/image-11.png" alt="Research">
+            Research
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sketches.html">
+            <img class="nav-icon" src="images/image-12.png" alt="Sketches">
+            Sketches
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="finalfiles.html">
+            <img class="nav-icon" src="images/image-13.png" alt="Final Files and Mockups">
+            Final Files &amp; Mockups
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="citations.html">
+            <img class="nav-icon" src="images/people-icon.png" alt="Citations">
+            Citations
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="page-content">
+
+      <article class="research-box">
+
+        <!-- Logo breakdown: two images side by side with a caption -->
+        <section class="research-section">
+          <div class="image-row logo-row">
+            <button class="expand-button logo-breakdown" popovertarget="champion-1-big">
+              <img class="expand-thumb" src="images/research-image-2.png" alt="Champion logo breakdown, part 1">
+              <span class="expand-label">Expand</span>
+            </button>
+            <div class="enlarged-box" id="champion-1-big" popover>
+              <img class="enlarged-image" src="images/research-image-2.png" alt="Champion logo breakdown, part 1, enlarged">
+            </div>
+
+            <button class="expand-button logo-breakdown" popovertarget="champion-2-big">
+              <img class="expand-thumb" src="images/research-image-3.png" alt="Champion logo breakdown, part 2">
+              <span class="expand-label">Expand</span>
+            </button>
+            <div class="enlarged-box" id="champion-2-big" popover>
+              <img class="enlarged-image" src="images/research-image-3.png" alt="Champion logo breakdown, part 2, enlarged">
+            </div>
+          </div>
+          <p class="research-text">Dissecting the reasoning behind the design choices of a brands logo. The brand I chose was champion due to its recognizable logo.</p>
+        </section>
+
+        <!-- Mood boards: three images that touch to look like one long strip -->
+        <section class="research-section">
+          <div class="image-row">
+            <button class="expand-button mood-board" popovertarget="mood-1-big">
+              <img class="expand-thumb" src="images/artboard-1-1.png" alt="Mood board 1, safer colors and imagery">
+              <span class="expand-label">Expand</span>
+            </button>
+            <div class="enlarged-box" id="mood-1-big" popover>
+              <img class="enlarged-image" src="images/artboard-1-1.png" alt="Mood board 1, enlarged">
+            </div>
+
+            <button class="expand-button mood-board" popovertarget="mood-2-big">
+              <img class="expand-thumb" src="images/artboard-2-1.png" alt="Mood board 2, a mix of both">
+              <span class="expand-label">Expand</span>
+            </button>
+            <div class="enlarged-box" id="mood-2-big" popover>
+              <img class="enlarged-image" src="images/artboard-2-1.png" alt="Mood board 2, enlarged">
+            </div>
+
+            <button class="expand-button mood-board" popovertarget="mood-3-big">
+              <img class="expand-thumb" src="images/artboard-3-1.png" alt="Mood board 3, the new archetype's colors and messaging">
+              <span class="expand-label">Expand</span>
+            </button>
+            <div class="enlarged-box" id="mood-3-big" popover>
+              <img class="enlarged-image" src="images/artboard-3-1.png" alt="Mood board 3, enlarged">
+            </div>
+          </div>
+          <p class="research-text">Three mood boards depicting the mood and visual direction the new archetype will take the business. The image on the far left has a safer color pallete and imagery, The image on the far right dives deeper into the new archetypes typical color pallet and messaging. The middle is a mix of both</p>
+        </section>
+
+        <!-- Links to the two PDF documents -->
+        <section class="research-section">
+          <div class="document-row">
+            <a class="pill-button" href="https://miriam-kit.github.io/final-project/Competitor-Brand-Audit.pdf" target="_blank">Brand audit</a>
+            <p class="document-text">Click to open the research document on brands with similar archetypes and who sell the same product.</p>
+          </div>
+          <div class="document-row">
+            <a class="pill-button" href="https://miriam-kit.github.io/brief-pdf/DVC1_CreativeBrief_Draft.pdf" target="_blank">Creative Brief</a>
+            <p class="document-text">Click to open the document containing the objectives and overview of the business chosen for the project.</p>
+          </div>
+        </section>
+
+      </article>
+
+      <a class="pill-button back-button" href="index.html">&lt; Back</a>
+
+    </main>
+  </div>
+
+  </div>
+
+</body>
+</html>
